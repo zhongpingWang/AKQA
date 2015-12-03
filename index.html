@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AKQA</title>
+    <script src="./pluging/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="./css/index.less">
+</head>
+
+<body>
+    <div id="webSite">
+        <div class="header">
+            AKQA
+        </div>
+        <div class="content">
+            <div class="title">
+                <div class="head">
+                    Your Basket
+                </div>
+                <div class="headDesc">
+                    Items you have added to your basket are shown below.
+                    <br/> Adjust the quantities or remove items before continuing you purchase
+                </div>
+            </div>
+            <table class="productTable" cellpadding="0" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th class="headComm productCell">Product</th>
+                        <th class="headComm priceCell">Price</th>
+                        <th class="headComm qtyCell">Qty</th>
+                        <th class="headComm costCell">Cost</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="gapTr"><td colspan="4"></td></tr>
+                    <tr class="commTr">
+                        <td class="productCell">Cotton T-Shirt,medium</td>
+                        <td class="priceCell">&pound;<span class="singlePrice">1.99</span></td>
+                        <td class="qtyCell">
+                            <input class="txtPrice" value="1" type="text" />
+                            <div class="calculation">
+                                <div class="plus" title="plus">+</div>
+                                <div class="minus" title="minus">-</div>
+                            </div>
+
+                        </td>
+                        <td class="costCell">&pound;<span class="sumPrice">1.99</span></td>
+                        <td class="del"><i class="icon-del"></i></td>
+                    </tr>
+                     <tr class="commTr">
+                        <td class="productCell">Baseball Cap,One Size</td>
+                           <td class="priceCell">&pound;<span class="singlePrice">2.99</span></td>
+                        <td class="qtyCell">
+                            <input class="txtPrice" value="2" type="text" />
+                            <div class="calculation">
+                                <div class="plus" title="plus">+</div>
+                                <div class="minus" title="minus">-</div>
+                            </div>
+
+                        </td>
+                        <td class="costCell">&pound;<span class="sumPrice">5.98</span></td>
+                       <td class="del"><i class="icon-del"></i></td>
+                    </tr>
+                     <tr class="commTr">
+                        <td class="productCell">Swim Shorts,Medium</td>
+                         <td class="priceCell">&pound;<span class="singlePrice">3.99</span></td>
+                        <td class="qtyCell">
+                            <input class="txtPrice" value="1" type="text" />
+                            <div class="calculation">
+                                <div class="plus" title="plus">+</div>
+                                <div class="minus" title="minus">-</div>
+                            </div>
+
+                        </td>
+                        <td class="costCell">&pound;<span class="sumPrice">3.99</span></td>
+                        <td class="del"><i class="icon-del"></i></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="subTotal">
+                <div>
+                    <span class="right">&pound;<span class="subTotalSum">11.96</span></span>
+                    <span>Subtotal</span>
+                </div>
+
+                <div>
+                    <span class="right">&pound;<span class="vatSum">2.39</span></span>
+                    <span>VAT @20%</span>
+                </div>
+
+                <div class="total">
+                     <span class="right">&pound;<span class="totalSum">14.35</span></span>
+                    <span>Total Cost</span> 
+                </div>
+
+                <a href="./buy.html" class="right buyNow">Buy Now>></a>
+
+            </div>
+
+          
+
+        </div>
+    </div>
+    <div class="footer">
+        <div class="company">
+            &copy;2015 AKQA Ltd.Registered in England:2964394
+        </div>
+    </div>
+    <script src="./js/index.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        //初始化
+        Akqa.init();
+    </script>
+</body>
+
+</html>
